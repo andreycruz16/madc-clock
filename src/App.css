@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+  user-select: none;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.clock {
+  color: white;
+  font-family: sans-serif;
+  font-size: 48px;
+  cursor: pointer; /* Add cursor pointer for clickable */
+}
+
+.date {
+  color: white;
+  font-family: sans-serif;
+  font-size: 24px;
+  margin-top: 10px;
+}
