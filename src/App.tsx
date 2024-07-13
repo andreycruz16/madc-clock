@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>MADC - Clock</title>
+        <title>Minimalist Digital Clock</title>
       </Helmet>
       <DigitalClock />
     </>
